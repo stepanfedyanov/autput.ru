@@ -6,10 +6,16 @@
 
 Запустите Docker Desktop
 
+Для начала произвести установку зависимостей Composer
+
+```bash
+composer install
+```
+
 Необходимо ввести команду в консоли в текущей папке
 
 ```bash
-docker compose -f docker-compose-dev.yml
+docker compose -f docker-compose-dev.yml up
 ```
 
 Докер сам скачает необходимые зависимости и запустит проект
