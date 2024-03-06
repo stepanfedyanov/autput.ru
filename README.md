@@ -2,7 +2,9 @@
 
 ## Запуск проекта (для разработки)
 
-Для запуска проекта необходимо установить Docker (https://www.docker.com/products/docker-desktop/).
+> [!WARNING]
+> Для запуска проекта необходимо установить Docker (https://www.docker.com/products/docker-desktop/).
+> Также необходимо установить Composer (https://getcomposer.org/download/).
 
 Запустите Docker Desktop
 
