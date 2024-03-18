@@ -1,0 +1,337 @@
+@import "hederFooter.css";
+@import "text.css";
+@import "finish.css";
+@import "main.css";
+
+.first-screen__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 62px;
+  align-items: center;
+  margin-top: 106px;
+  padding-bottom: 129px;
+}
+
+.first-screen {
+  background-color: rgb(23, 52, 40);
+}
+
+.first-screen__title {
+  max-width: 828px;
+  font-size: 65.64px;
+  font-weight: 400;
+  line-height: 74px;
+  margin: 0;
+}
+
+.first-screen__text {
+  max-width: 1193px;
+}
+
+.print__img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.print {
+  height: 761px;
+}
+
+.cards__img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.cards {
+  height: 850px;
+}
+
+.website__img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.website {
+  height: 850px;
+}
+
+.seo {
+  margin-top: 158px;
+  padding-bottom: 43px;
+  border-bottom: 1px solid rgb(239, 239, 239);
+}
+
+.variants {
+  padding-top: 44px;
+  padding-bottom: 69px;
+}
+
+.variants__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.variants__logo {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+.variants__text {
+  max-width: 685px;
+}
+
+.update__wrapper {
+  position: relative;
+  width: 50%;
+}
+
+.update__logo_old {
+  display: grid;
+  gap: 35px;
+  margin-bottom: 84px;
+}
+
+.update__text {
+  display: flex;
+  flex-direction: column;
+  gap: 47px;
+}
+
+.update {
+  padding-top: 70px;
+  padding-bottom: 59px;
+}
+
+.logos {
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+.logos__new {
+  display: grid;
+  gap: 35px;
+  margin-bottom: 56px;
+}
+
+.logos__simple {
+  display: grid;
+  gap: 35px;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 1150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  .first-screen__title {
+    font-size: 59px;
+    line-height: 69px;
+  }
+  .print {
+    height: 650px;
+  }
+
+  .cards {
+    height: 650px;
+  }
+  .seo {
+    margin-top: 0px;
+  }
+
+  .website {
+    height: 650px;
+  }
+
+  .update__logo_old {
+    gap: 15px;
+    margin-bottom: 60px;
+  }
+
+  .logos__new {
+    gap: 15px;
+    margin-bottom: 50px;
+  }
+
+  .logos__simple {
+    gap: 15px;
+  }
+
+  .update__text {
+    gap: 30px;
+  }
+
+  .update {
+    padding-bottom: 40px;
+  }
+
+  .variants__text {
+    max-width: 477px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  .print {
+    height: 450px;
+  }
+
+  .cards {
+    height: 450px;
+  }
+
+  .website {
+    height: 450px;
+  }
+
+  .first-screen__title {
+    font-size: 52px;
+    line-height: 62px;
+  }
+
+  .first-screen__wrapper {
+    gap: 50px;
+  }
+
+  .logos {
+    position: static;
+    margin-bottom: 50px;
+  }
+
+  .update {
+    padding-top: 39px;
+  }
+
+  .update__logo_old {
+    gap: 10px;
+    margin-bottom: 35px;
+  }
+
+  .logos__new {
+    gap: 10px;
+    margin-bottom: 35px;
+  }
+
+  .update__wrapper {
+    width: 100%;
+  }
+
+  .update__text {
+    gap: 25px;
+  }
+
+  .update {
+    padding-bottom: 55px;
+  }
+
+  .variants {
+    padding-top: 0px;
+    padding-bottom: 45px;
+  }
+
+  .variants__logo {
+    gap: 15px;
+    margin-bottom: 35px;
+  }
+
+  .variants__text {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  .website {
+    display: none;
+  }
+
+  .print {
+    height: 350px;
+  }
+
+  .cards {
+    height: 350px;
+  }
+
+  .first-screen__wrapper {
+    gap: 40px;
+
+    margin-top: 70px;
+    padding-bottom: 114px;
+  }
+
+  .first-screen__title {
+    font-size: 42px;
+    line-height: 52px;
+  }
+
+  .seo {
+    margin-top: 86px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 93%;
+    padding: 0 10px;
+  }
+
+  .print {
+    height: 300px;
+  }
+
+  .cards {
+    height: 314px;
+  }
+
+  .update__logo_old {
+    gap: 5px;
+  }
+
+  .update__logo_old img {
+    width: 206px;
+  }
+
+  .logos__new {
+    gap: 5px;
+  }
+
+  .logos__new img {
+    width: 210px;
+  }
+
+  .logos__simple {
+    gap: 5px;
+  }
+
+  .logos__simple img {
+    width: 130px;
+  }
+
+  .variants__logo {
+    gap: 15px;
+    width: 210px;
+  }
+
+  .first-screen__title {
+    font-size: 35px;
+    line-height: 40px;
+  }
+}

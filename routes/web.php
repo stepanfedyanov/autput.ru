@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Colleague;
+use App\Models\Work;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,7 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 Route::get('/', function() {
-    return view('home');
+    $works = Work::all();
+    return view('home', compact('works'));
 });
 Route::prefix('work')->group(function () {
     Route::prefix('24mkk')->group(function() {
@@ -34,4 +37,13 @@ Route::prefix('work')->group(function () {
             return view('work.siberia-power.site');
         });
     });
+});
+Route::get('/{slug}', function($slug) {
+    $colleague = Colleague::find($slug);
+    if (!$colleague)
+    {
+        abort(404, 'Oops! Page Not Found.');
+    }
+    $works = $colleague->works;
+    return view('colleague', compact('colleague', 'works'));
 });

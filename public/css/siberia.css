@@ -1,0 +1,308 @@
+@import "hederFooter.css";
+@import "text.css";
+@import "finish.css";
+@import "main.css";
+
+.first-screen__wrapper {
+  margin-top: 143px;
+
+  position: relative;
+}
+
+.first-screen {
+  height: 1117px;
+  background-image: url(../img/imgSib/firstBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.first-screen__title {
+  color: rgb(255, 255, 255);
+  font-size: 136.16px;
+  line-height: 152px;
+  text-align: left;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.first-screen__falcon_mini {
+  position: absolute;
+  left: 8.5%;
+  top: 87%;
+  z-index: 1;
+}
+
+.about {
+  background-color: #e5e5e5;
+  box-sizing: border-box;
+  padding-top: 70px;
+  height: 815px;
+  position: relative;
+  overflow: hidden;
+}
+
+.about__laptop {
+  position: absolute;
+  right: -166.5px;
+  bottom: -46px;
+}
+
+.about__title {
+  margin-bottom: 35px;
+  color: rgb(56, 56, 56);
+}
+
+.about__text {
+  max-width: 793px;
+  color: rgb(56, 56, 56);
+}
+
+.about__text:nth-of-type(1) {
+  margin-bottom: 35px;
+}
+
+.mobil__img {
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+
+.mobil {
+  height: 962px;
+}
+
+.main-page {
+  background-color: #212121;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+
+.main-page__title {
+  color: rgb(229, 229, 229);
+  margin-bottom: 109px;
+}
+
+.main-page__website {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  z-index: 1;
+  width: 100%;
+}
+
+.main-page__bottom {
+  height: 1208px;
+  background-image: url(../img/imgSib/forBG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: -230px;
+  display: flex;
+  align-items: end;
+  padding-bottom: 82px;
+  position: relative;
+}
+
+.transparent-black {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(transparent, rgb(16, 16, 16));
+  z-index: 1;
+}
+
+.main-page__finish {
+  position: relative;
+  z-index: 2;
+}
+
+.first-screen__falcon {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .container {
+    width: 1150px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+
+  .first-screen {
+    height: 670px;
+  }
+  .first-screen__title {
+    font-size: 81.16px;
+    line-height: 85px;
+  }
+
+  .first-screen__wrapper {
+    margin-top: 70px;
+  }
+
+  .first-screen__falcon_mini {
+    left: 7.5%;
+    top: 86%;
+  }
+
+  .about {
+    padding-top: 40px;
+  }
+  .about__laptop {
+    width: 1000px;
+  }
+
+  .mobil {
+    height: 700px;
+  }
+  .main-page {
+    padding-top: 40px;
+  }
+
+  .main-page__title {
+    margin-bottom: 60px;
+  }
+
+  .main-page__bottom {
+    height: 600px;
+
+    margin-top: -155px;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+
+  .first-screen {
+    height: 584px;
+  }
+  .first-screen__wrapper {
+    margin-top: 40px;
+  }
+  .first-screen__title {
+    font-size: 65.16px;
+    line-height: 68px;
+  }
+
+  .about__title {
+    margin-bottom: 20px;
+  }
+  .about__text:nth-of-type(1) {
+    margin-bottom: 20px;
+  }
+
+  .about__laptop {
+    width: 857px;
+  }
+
+  .about__laptop {
+    right: -113.5px;
+  }
+
+  .about {
+    height: 650px;
+  }
+
+  .about__laptop {
+    bottom: -206px;
+  }
+
+  .mobil {
+    height: 600px;
+  }
+  .main-page__title {
+    margin-bottom: 30px;
+  }
+  .main-page__bottom {
+    height: 550px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+
+  .first-screen__wrapper {
+    margin-top: 100px;
+  }
+
+  .first-screen__title {
+    font-size: 53.16px;
+    line-height: 57px;
+  }
+
+  .first-screen__falcon_mini {
+    display: none;
+  }
+
+  .first-screen__falcon {
+    position: absolute;
+    display: block;
+    right: -68.4px;
+    top: -49.05px;
+    width: 326px;
+  }
+
+  .first-screen {
+    overflow: hidden;
+  }
+
+  .about {
+    height: 600px;
+  }
+  .about__laptop {
+    bottom: -250px;
+    width: 825px;
+  }
+  .about__laptop {
+    right: -13.5px;
+  }
+
+  .mobil {
+    height: 534px;
+  }
+  .main-page__bottom {
+    height: 530px;
+  }
+
+  .main-page__bottom {
+    padding-bottom: 41px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    width: 93%;
+    padding: 0 10px;
+  }
+
+  .first-screen__wrapper {
+    margin-top: 117px;
+  }
+  .first-screen__title {
+    font-size: 43.16px;
+    line-height: 48px;
+  }
+  .first-screen {
+    height: 678px;
+  }
+
+  .first-screen__falcon {
+    width: 301.4px;
+    right: -78.4px;
+    top: -11.05px;
+  }
+  .about__laptop {
+    bottom: -151px;
+    width: 651px;
+  }
+  .about__laptop {
+    right: -32.5px;
+  }
+}
