@@ -1,0 +1,162 @@
+.first-screen__sky_one {
+  position: absolute;
+  z-index: 2;
+  left: -302px;
+  transform: translateX(-50%);
+  bottom: -140px;
+}
+
+.first-screen__sky_two {
+  position: absolute;
+  z-index: 3;
+  left: 116px;
+  transform: translateX(-50%);
+  bottom: -170px;
+}
+
+.first-screen__sky_three {
+  position: absolute;
+  z-index: 4;
+  left: 927px;
+  transform: translateX(-50%);
+  bottom: -70px;
+}
+
+.first-screen__sky_four {
+  position: absolute;
+  z-index: 2;
+  left: -102px;
+  transform: translateX(-50%);
+  bottom: -200px;
+}
+
+.first-screen__sky_five {
+  position: absolute;
+  z-index: 3;
+  left: 150px;
+  transform: translateX(-50%);
+  bottom: -100px;
+}
+
+.first-screen__sky_six {
+  position: absolute;
+  z-index: 4;
+  left: 627px;
+  transform: translateX(-50%);
+  bottom: -70px;
+}
+
+.first-screen__sky_seven {
+  position: absolute;
+  z-index: 4;
+  left: 527px;
+  transform: translateX(-50%);
+  bottom: 70px;
+}
+
+@keyframes moveSkyOne {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
+
+@keyframes moveSkyTwo {
+  from {
+    transform: translateX(-110%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
+
+@keyframes moveSkyThree {
+  from {
+    transform: translateX(-150%);
+  }
+  to {
+    transform: translateX(250%);
+  }
+}
+
+@keyframes moveSkyFour {
+  from {
+    transform: translateX(-200%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+@keyframes moveSkyFive {
+  from {
+    transform: translateX(-250%);
+  }
+  to {
+    transform: translateX(300%);
+  }
+}
+
+@keyframes moveSkySix {
+  from {
+    transform: translateX(-300%);
+  }
+  to {
+    transform: translateX(150%);
+  }
+}
+
+@keyframes moveSkySeven {
+  from {
+    transform: translateX(-350%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+.first-screen__sky_one {
+  animation: moveSkyOne 60s infinite linear;
+}
+.first-screen__sky_two {
+  animation: moveSkyTwo 50s infinite linear;
+}
+.first-screen__sky_three {
+  animation: moveSkyThree 80s infinite linear;
+}
+.first-screen__sky_four {
+  animation: moveSkyFour 50s infinite linear;
+}
+.first-screen__sky_five {
+  animation: moveSkyFive 60s infinite linear;
+}
+.first-screen__sky_six {
+  animation: moveSkySix 80s infinite linear;
+}
+.first-screen__sky_seven {
+  animation: moveSkySeven 50s infinite linear;
+}
+
+/* .first-screen__sky:nth-of-type(1) {
+  animation: moveSkyOne 60s infinite linear;
+}
+.first-screen__sky:nth-of-type(2) {
+  animation: moveSkyTwo 50s infinite linear;
+}
+.first-screen__sky:nth-of-type(3) {
+  animation: moveSkyThree 80s infinite linear;
+}
+.first-screen__sky:nth-of-type(4) {
+  animation: moveSkyFour 50s infinite linear;
+}
+.first-screen__sky:nth-of-type(5) {
+  animation: moveSkyFive 60s infinite linear;
+}
+.first-screen__sky:nth-of-type(6) {
+  animation: moveSkySix 80s infinite linear;
+}
+.first-screen__sky:nth-of-type(7) {
+  animation: moveSkySeven 50s infinite linear;
+} */

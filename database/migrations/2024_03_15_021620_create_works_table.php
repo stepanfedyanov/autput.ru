@@ -14,9 +14,9 @@ return new class extends Migration
         Schema::create('works', function (Blueprint $table) {
             $table->increments('id');
             $table->string('workTitle');
+            $table->string('workCompany');
             $table->string('workType');
             $table->string('workThumbnail');
-            $table->string('workCreator');
             $table->string('workSizeType');
             $table->timestamps();
         });

@@ -1,0 +1,104 @@
+.video-decoration {
+  max-width: 1487px;
+  box-sizing: border-box;
+  border: 1.4px solid rgb(223, 223, 223);
+  border-radius: 8px 8px 0px 0px;
+  background: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 52px;
+}
+
+.video-decoration__dots {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  left: 22px;
+}
+
+.video-decoration__dot:nth-of-type(1) {
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border: 1.4px solid rgb(196, 51, 46);
+  background: rgb(251, 85, 78);
+  border-radius: 50%;
+}
+
+.video-decoration__dot:nth-of-type(2) {
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border: 1.4px solid rgb(220, 134, 6);
+  background: rgb(253, 169, 41);
+  border-radius: 50%;
+}
+
+.video-decoration__dot:nth-of-type(3) {
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border: 1.4px solid rgb(36, 158, 24);
+  background: rgb(68, 180, 57);
+  border-radius: 50%;
+}
+
+.video-decoration__link {
+  box-sizing: border-box;
+  border: 1.4px solid rgb(204, 204, 204);
+  border-radius: 7px;
+  width: 40%;
+  text-align: center;
+  background: rgb(217, 217, 217);
+}
+
+.video-decoration__link a {
+  color: rgb(0, 0, 0);
+  font-family: "PT Sans", monospace;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 19px;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .video-decoration {
+    height: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .video-decoration__link a {
+    font-size: 4px;
+    line-height: 5px;
+    display: block;
+  }
+  .video-decoration__dot:nth-of-type(1) {
+    width: 4px;
+    height: 4px;
+  }
+  .video-decoration__dot:nth-of-type(2) {
+    width: 4px;
+    height: 4px;
+  }
+  .video-decoration__dot:nth-of-type(3) {
+    width: 4px;
+    height: 4px;
+  }
+  .video-decoration__dots {
+    gap: 2.37px;
+    left: 5.42px;
+  }
+  .video-decoration {
+    height: 12.5px;
+    border: 0.34px solid rgb(223, 223, 223);
+    border-radius: 2.03px 2.03px 0px 0px;
+  }
+  .video-decoration__link {
+    border: 0.34px solid rgb(204, 204, 204);
+    border-radius: 1.69px;
+    height: 7.12px;
+  }
+}
