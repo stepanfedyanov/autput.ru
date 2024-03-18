@@ -1,0 +1,141 @@
+/* Исправь название файла */
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+
+.header__logo_mini {
+  display: none;
+}
+
+.logo_black {
+  fill: black;
+}
+
+.logo_white {
+  fill: white;
+}
+
+.header__links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-decoration-line: underline;
+}
+
+.footer {
+  background-color: #fff;
+  padding: 32px 0 31px 0;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__founder {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin: 0;
+}
+
+.footer__founder a {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  margin: 0;
+  text-decoration-line: underline;
+}
+
+.footer__autput {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  line-height: 20px;
+  margin: 0;
+}
+
+.footer__tel {
+  color: rgb(190, 190, 190);
+  font-size: 20px;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+.footer__mail {
+  color: rgb(190, 190, 190);
+  font-size: 20px;
+  line-height: 22px;
+  text-decoration-line: underline;
+}
+
+@media (max-width: 992px) {
+  .footer__founder {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .footer__founder a {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .footer__autput {
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  .footer__mail {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .footer__tel {
+    font-size: 16px;
+    line-height: 18px;
+  }
+
+  .footer {
+    padding: 20px 0 20px 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 540px;
+  }
+  .header__logo {
+    display: none;
+  }
+  .header__logo_mini {
+    display: block;
+  }
+  .header__wrapper {
+    height: 65px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header__wrapper {
+    height: 55px;
+  }
+  .footer {
+    padding: 32px 0 41px 0;
+  }
+}

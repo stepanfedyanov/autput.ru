@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string('jobTitle');
             $table->string('socialLinkName');
             $table->string('socialLink');
+            $table->string('avatar');
+            $table->string('cover');
             $table->timestamps();
         });
     }
