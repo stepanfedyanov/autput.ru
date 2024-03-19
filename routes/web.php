@@ -2,8 +2,9 @@
 
 use App\Models\Colleague;
 use App\Models\Work;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
-
+require __DIR__ . '/../util/send_to.php';
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -46,4 +47,14 @@ Route::get('/{slug}', function($slug) {
     }
     $works = $colleague->works;
     return view('colleague', compact('colleague', 'works'));
+});
+Route::prefix('api')->group(function() {
+    Route::post('/form', function(Request $request) {
+        $jsonData = $request->json()->all();
+        $name = isset($jsonData['name']) ? $jsonData['name'] : '';
+        $email = isset($jsonData['email']) ? $jsonData['email'] : '';
+        $phone = isset($jsonData['phone']) ? $jsonData['phone'] : '';
+        $message_to_send = "Со страницы autput.ru поступило сообщение. Данные клиента: \n $name \n $email \n $phone \n";
+        message_to_telegram($message_to_send);
+    });
 });
