@@ -56,7 +56,7 @@ window.addEventListener("DOMContentLoaded", () => {
         modal.classList.add("fade");
     }
 
-    function obrabotka(event) {
+    function formProcessing(event) {
         event.preventDefault();
         if (validate(this)) {
             const formData = new FormData(event.target);
@@ -76,5 +76,5 @@ window.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    form.addEventListener("submit", obrabotka);
+    form.addEventListener("submit", formProcessing);
 });
