@@ -36,18 +36,6 @@ docker compose -f docker-compose-dev.yml exec laravel.test sh
 
 Выйти из этого терминал можно с помощью ```exit```
 
-Для доступа к админ-панели необходимо создать главного пользователя. Для этого необходимо прописать команду, чтобы войти в панель Laravel.
-```bash
-docker compose -f docker-compose-dev.yml exec laravel.test sh 
-```
-
-А потом внутри консоли контейнера написать
-```bash
-php artisan orchid:admin
-```
-
-Введите логин, почту, пароль. Все эти данные будут сохранены только для вас локально!
-
 ## Git Flow
 
 ### Ветка с новой фичей
