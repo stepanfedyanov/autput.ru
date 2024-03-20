@@ -227,11 +227,10 @@
                   Как к&nbsp;вам обращаться?
                 </label>
                 <input
-                  class="text__small gray"
+                  class="text__small gray form__input"
                   type="text"
                   id="name"
                   name="name"
-                  required
                   placeholder="Самый лучший заказчик"
                 />
               </div>
@@ -241,11 +240,10 @@
                 </label>
 
                 <input
-                  class="text__small gray"
+                  class="text__small gray form__input"
                   type="email"
                   id="email"
                   name="email"
-                  required
                   placeholder="mail@autput.ru"
                 />
               </div>
@@ -255,11 +253,10 @@
                 </label>
 
                 <input
-                  class="text__small gray"
+                  class="text__small gray form__input"
                   type="tel"
-                  id="tel"
-                  name="tel"
-                  required
+                  id="phone"
+                  name="phone"
                   placeholder="+ 7 (999) 99-85-11"
                 />
               </div>
@@ -271,6 +268,10 @@
         </div>
       </div>
     </section>
+
+    <div class="modal">
+      <p class="modal__text text__main center black"></p>
+    </div>
 
     <footer class="footer">
       <div class="container">
@@ -291,5 +292,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="{{asset('/script/form.js')}}"></script>
+    <script src="{{asset('/script/mask.js')}}"></script>
+
   </body>
 </html>
