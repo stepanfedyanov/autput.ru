@@ -3,7 +3,6 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('/css/normalize.css')}}" />
     <link rel="stylesheet" href="{{asset('/css/index.css')}}" />
     <title>Главная</title>
   </head>
@@ -160,19 +159,19 @@
             </h2>
             <div class="specialists__wrapper">
               <div class="specialists__item">
-                <img src="/img/imgIndex/stepa.png" alt="фото стёпы" />
+                <img src="/img/index/stepa.png" alt="фото стёпы" />
                 <a class="link__main black" href="">Степан Федянов</a>
                 <p class="text__small gray">Основатель Программист</p>
               </div>
 
               <div class="specialists__item">
-                <img src="/img/imgIndex/vadim.png" alt="фото вадима" />
+                <img src="/img/index/vadim.png" alt="фото вадима" />
                 <a class="link__main black" href="">Вадим Рассказов</a>
                 <p class="text__small gray">Менеджер</p>
               </div>
 
               <div class="specialists__item">
-                <img src="/img/imgIndex/pavel.png" alt="фото паши" />
+                <img src="/img/index/pavel.png" alt="фото паши" />
                 <a class="link__main black" href="">Павел Радомский</a>
                 <p class="text__small gray">Дизайнер</p>
               </div>
@@ -227,11 +226,10 @@
                   Как к&nbsp;вам обращаться?
                 </label>
                 <input
-                  class="text__small gray"
+                  class="text__small gray form__input"
                   type="text"
                   id="name"
                   name="name"
-                  required
                   placeholder="Самый лучший заказчик"
                 />
               </div>
@@ -241,11 +239,10 @@
                 </label>
 
                 <input
-                  class="text__small gray"
+                  class="text__small gray form__input"
                   type="email"
                   id="email"
                   name="email"
-                  required
                   placeholder="mail@autput.ru"
                 />
               </div>
@@ -255,11 +252,10 @@
                 </label>
 
                 <input
-                  class="text__small gray"
+                  class="text__small gray form__input"
                   type="tel"
-                  id="tel"
-                  name="tel"
-                  required
+                  id="phone"
+                  name="phone"
                   placeholder="+ 7 (999) 99-85-11"
                 />
               </div>
@@ -271,6 +267,10 @@
         </div>
       </div>
     </section>
+
+    <div class="modal">
+      <p class="modal__text text__main center black"></p>
+    </div>
 
     <footer class="footer">
       <div class="container">
@@ -291,5 +291,9 @@
         </div>
       </div>
     </footer>
+
+    <script src="{{asset('/script/components/form.js')}}"></script>
+    <script src="{{asset('/script/components/mask.js')}}"></script>
+
   </body>
 </html>

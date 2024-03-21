@@ -3,10 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('/css/normalize.css')}}" />
-    <link rel="stylesheet" href="{{asset('/css/skyfort.css')}}" />
-{{--     <link rel="stylesheet" href="../../../../public/css/normalize.css" />
-    <link rel="stylesheet" href="../../../../public/css/skyfort.css" /> --}}
+    <link rel="stylesheet" href="{{asset('/css/work/skyfort/site/skyfort.css')}}" />
     <title>Skyfort</title>
   </head>
   <body>
@@ -100,43 +97,43 @@
           </h1>
         </div>
       </div>
-      <img class="first-screen__bilds" src="/img/imgSky/bilds.png" alt="здания" />
+      <img class="first-screen__bilds" src="/img/work/skyfort/site/bilds.png" alt="здания" />
 
-      <img class="first-screen__skys" src="/img/imgSky/skys.png" alt="облока" />
+      <img class="first-screen__skys" src="/img/work/skyfort/site/skys.png" alt="облока" />
 
       <img
         class="first-screen__sky_one"
-        src="/img/imgSky/sky_one.png"
+        src="/img/work/skyfort/site/sky_one.png"
         alt="облоко"
       />
       <img
         class="first-screen__sky_two"
-        src="/img/imgSky/sky_two.png"
+        src="/img/work/skyfort/site/sky_two.png"
         alt="облоко"
       />
       <img
         class="first-screen__sky_three"
-        src="/img/imgSky/sky_three.png"
+        src="/img/work/skyfort/site/sky_three.png"
         alt="облоко"
       />
       <img
         class="first-screen__sky_four"
-        src="/img/imgSky/sky_one.png"
+        src="/img/work/skyfort/site/sky_one.png"
         alt="облоко"
       />
       <img
         class="first-screen__sky_five"
-        src="/img/imgSky/sky_two.png"
+        src="/img/work/skyfort/site/sky_two.png"
         alt="облоко"
       />
       <img
         class="first-screen__sky_six"
-        src="/img/imgSky/sky_three.png"
+        src="/img/work/skyfort/site/sky_three.png"
         alt="облоко"
       />
       <img
         class="first-screen__sky_seven"
-        src="/img/imgSky/sky_three.png"
+        src="/img/work/skyfort/site/sky_three.png"
         alt="облоко"
       />
 
@@ -233,7 +230,7 @@
       </div>
     </footer>
 
-    <script type="module" src="/script/videos.js"></script>
-    <script type="module" src="/script/skyfort.js"></script>
+    <script type="module" src="/script/components/videos.js"></script>
+    <script type="module" src="/script/work/skyfort/site/skyfort.js"></script>
   </body>
 </html>
