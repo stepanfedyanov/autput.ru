@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('/css/normalize.css')}}" />
-    <link rel="stylesheet" href="{{asset('/css/identity.css')}}" />
+    <link rel="stylesheet" href="{{asset('/css/work/24mkk/identity/identity.css')}}" />
     <title>Identity</title>
   </head>
   <body>
@@ -108,7 +107,7 @@
     <section class="print">
       <img
         class="print__img"
-        src="/img/imgIde/firstBg.png"
+        src="/img/work/24mkk/identity/firstBg.png"
         alt="вышивка родной мебели"
       />
     </section>
@@ -118,18 +117,18 @@
         <div class="update__wrapper">
           <div class="update__logo_old">
             <p class="text__main black left">Старый логотип</p>
-            <img src="/img/imgIde/oldLogo.png" alt="старый логотип" />
+            <img src="/img/work/24mkk/identity/oldLogo.png" alt="старый логотип" />
           </div>
 
           <div class="logos">
             <div class="logos__new">
               <p class="text__main black left">Новый логотип</p>
-              <img src="/img/imgIde/newLogo.png" alt="новый логолип" />
+              <img src="/img/work/24mkk/identity/newLogo.png" alt="новый логолип" />
             </div>
             <div class="logos__simple">
               <p class="text__main gray left">Упрощенная версия</p>
               <img
-                src="/img/imgIde/simpleLogo.png"
+                src="/img/work/24mkk/identity/simpleLogo.png"
                 alt="упрощённый новый логотип"
               />
             </div>
@@ -154,8 +153,8 @@
       <div class="container">
         <div class="variants__wrapper">
           <div class="variants__logo">
-            <img src="/img/imgIde/brownLogo.png" alt="коричневый логотип" />
-            <img src="/img/imgIde/monochromeLogo.png" alt="монохромный логотип" />
+            <img src="/img/work/24mkk/identity/brownLogo.png" alt="коричневый логотип" />
+            <img src="/img/work/24mkk/identity/monochromeLogo.png" alt="монохромный логотип" />
           </div>
           <div class="variants__text">
             <p class="text__main black left">
@@ -170,7 +169,7 @@
     <section class="cards">
       <img
         class="cards__img"
-        src="/img/imgIde/secondBg.png"
+        src="/img/work/24mkk/identity/secondBg.png"
         alt="визитки родной мебели"
       />
     </section>
@@ -179,7 +178,7 @@
       <div class="container">
         <img
           class="website__img"
-          src="/img/imgIde/thirdBg.png"
+          src="/img/work/24mkk/identity/thirdBg.png"
           alt="новый сайт родной мебели"
         />
       </div>

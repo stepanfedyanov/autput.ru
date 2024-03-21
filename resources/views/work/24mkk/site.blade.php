@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('/css/normalize.css')}}" />
-    <link rel="stylesheet" href="{{asset('/css/furniture.css')}}" />
+    <link rel="stylesheet" href="{{asset('/css/work/24mkk/site/furniture.css')}}" />
     <title>Furniture</title>
   </head>
   <body>
@@ -111,7 +110,7 @@
           </div>
           <img
             class="first-screen__divan"
-            src="/img/imgFur/divan.png"
+            src="/img/work/24mkk/site/divan.png"
             alt="divan"
           />
         </div>
@@ -238,7 +237,7 @@
       </div>
     </footer>
 
-    <script type="module" src="/script/videos.js"></script>
-    <script type="module" src="/script/furniture.js"></script>
+    <script type="module" src="/script/components/videos.js"></script>
+    <script type="module" src="/script/work/24mkk/site/furniture.js"></script>
   </body>
 </html>
