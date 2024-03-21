@@ -1,7 +1,7 @@
-@import "hederFooter.css";
-@import "text.css";
-@import "samplesCard.css";
-@import "main.css";
+@import "./common/hederFooter.css";
+@import "./components/text.css";
+@import "./common/samplesCard.css";
+@import "./common/main.css";
 
 .first-screen {
     background-color: rgb(255, 255, 255);

@@ -3,8 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('/css/normalize.css')}}" />
-    <link rel="stylesheet" href="{{asset('/css/siberia.css')}}" />
+    <link rel="stylesheet" href="{{asset('/css/work/siberia-power/site/siberia.css')}}" />
     <title>Siberia</title>
   </head>
   <body>
@@ -103,12 +102,12 @@
 
           <img
             class="first-screen__falcon_mini"
-            src="/img/imgSib/falcon_mini.png"
+            src="/img/work/siberia-power/site/falcon_mini.png"
             alt="маленькая птица"
           />
           <img
             class="first-screen__falcon"
-            src="/img/imgSib/falcon.png"
+            src="/img/work/siberia-power/site/falcon.png"
             alt="большая птица"
           />
         </div>
@@ -130,18 +129,18 @@
           C&nbsp;нами ни&nbsp;один мишка не&nbsp;страшен.
         </p>
 
-        <img class="about__laptop" src="/img/imgSib/secondBG.png" alt="компьютер" />
+        <img class="about__laptop" src="/img/work/siberia-power/site/secondBG.png" alt="компьютер" />
       </div>
     </section>
 
     <section class="mobil">
-      <img class="mobil__img" src="/img/imgSib/threeBG.png" alt="телефон" />
+      <img class="mobil__img" src="/img/work/siberia-power/site/threeBG.png" alt="телефон" />
     </section>
 
     <section class="main-page">
       <div class="container">
         <h2 class="main-page__title title__secondary left">Главная страница</h2>
-        <img class="main-page__website" src="/img/imgSib/website.png" alt="сайт" />
+        <img class="main-page__website" src="/img/work/siberia-power/site/website.png" alt="сайт" />
       </div>
       <div class="main-page__bottom">
         <div class="main-page__finish finish__information">
