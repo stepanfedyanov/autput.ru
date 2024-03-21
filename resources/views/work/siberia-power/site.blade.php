@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{asset('/css/work/siberia-power/site/siberia.css')}}" />
-    <title>Siberia</title>
+    @include('includes.head')
+    <title>Студия Аутпут | UX/UI-дизайн для туристического агенства Силы Сибири</title>
+    <meta name="description" content="Студия Аутпут разработала дизайн для UX/UI дизайн. Туристическое агенство с авторскими турами по Сибири. Выбирайте путешествие на свой вкус. Можете попробовать себя в роли дикаря, отдохнуть вместе с семьёй или заказать корпоративную поездку. Несколько кликов и вы летите за новыми эмоциями.">
   </head>
   <body>
     <section class="first-screen">
@@ -148,7 +150,7 @@
 
           <p class="finish__subtitle text__small center">Дизайнер</p>
           <div class="finish__names">
-            <a class="link__main center white" href="#"> Павел Радомский </a>
+            <a class="link__main center white" href="/radomskii"> Павел Радомский </a>
           </div>
           <p class="finish__date text__small center">28 февраля 2024 год</p>
         </div>
@@ -160,7 +162,7 @@
       <div class="container">
         <div class="footer__wrapper">
           <p class="footer__founder center">
-            Основатель – <a href="#">Федянов Степан</a>
+            Основатель – <a href="/stepan">Федянов Степан</a>
           </p>
           <p class="footer__autput text__small center">© Аутпут 2024</p>
           <a

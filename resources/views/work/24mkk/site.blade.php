@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{asset('/css/work/24mkk/site/furniture.css')}}" />
-    <title>Furniture</title>
+    @include('includes.head')
+    <title>Студия Аутпут | Разработка интернет-каталога для Родной мебели</title>
+    <meta name="description" content="Студия Аутпут провела анализ аудитории и конкурентов, составила семантическое ядро, и определила важные запросы для сайта. В среднем позиции сайта выросли на 20% по основным поисковым запросам в Красноярске.">
   </head>
   <body>
     <section class="first-screen">
@@ -205,13 +207,13 @@
           <h2 class="finish__title text__main center black">В ролях</h2>
           <p class="finish__subtitle text__small center black">Дизайнер</p>
 
-          <a class="optimization__pavel link__main center black" href="#">
+          <a class="optimization__pavel link__main center black" href="/radomskii">
             Павел Радомский
           </a>
 
           <p class="finish__subtitle text__small center black">Разработчики</p>
           <div class="finish__names">
-            <a class="link__main center black" href="#">Степан Федянов</a>
+            <a class="link__main center black" href="/stepan">Степан Федянов</a>
           </div>
           <p class="finish__date text__small center black">7 марта 2024 год</p>
         </div>
@@ -221,7 +223,7 @@
       <div class="container">
         <div class="footer__wrapper">
           <p class="footer__founder center">
-            Основатель – <a href="#">Федянов Степан</a>
+            Основатель – <a href="/stepan">Федянов Степан</a>
           </p>
           <p class="footer__autput text__small center">© Аутпут 2024</p>
           <a

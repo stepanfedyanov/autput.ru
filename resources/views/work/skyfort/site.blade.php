@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{asset('/css/work/skyfort/site/skyfort.css')}}" />
-    <title>Skyfort</title>
+    @include('includes.head')
+    <title>Студия Аутпут | Верстка страницы для Skyfort</title>
+    <meta name="description" content="Skyfort — это маркетплейс инвестиционных продуктов и семейный офис для состоятельных людей. Чтобы подчеркнуть серъезность компании, необходимо сверстать сайт с анимациями, исходя из представленного макета. Студия Аутпут сверстала страницы с анимациями для Skyfort.">
   </head>
   <body>
     <section class="first-screen">
@@ -202,7 +204,7 @@
           <p class="finish__subtitle text__small center">Разработчики</p>
           <div class="finish__names">
             <p class="white link__main center not_decor">Игорь Денисенков</p>
-            <a class="white link__main center" href="#">Степан Федянов</a>
+            <a class="white link__main center" href="/stepan">Степан Федянов</a>
           </div>
           <p class="finish__date text__small center">28 февраля 2024 год</p>
         </div>
@@ -214,7 +216,7 @@
       <div class="container">
         <div class="footer__wrapper">
           <p class="footer__founder center">
-            Основатель – <a href="#">Федянов Степан</a>
+            Основатель – <a href="/stepan">Федянов Степан</a>
           </p>
           <p class="footer__autput text__small center">© Аутпут 2024</p>
           <a

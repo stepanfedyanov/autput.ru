@@ -13,6 +13,8 @@ class Colleague extends Model
     protected $primaryKey = 'slug';
     protected $keyType = 'string';
     public $incrementing = false;
+    protected $fillable = ['slug', 'secondName', 'firstName', 'lastName', 'jobTitle', 'socialLinkName', 'socialLink', 'avatar', 'cover'];
+
     public function works() : BelongsToMany
     {
         return $this->belongsToMany(Work::class);

@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{asset('/css/work/24mkk/identity/identity.css')}}" />
-    <title>Identity</title>
+    @include('includes.head')
+    <title>Студия Аутпут | Разработка логотипа для Родной мебели</title>
+    <meta name="description" content="Логотип мебельной фабрики в Красноярске требовал обновления. Вместе с разработкой сайта, Студия Аутпут обновила логотип фабрики. Мы также разработали дополнительные варианты: черно-белый для печати и вариант с оригинальным цветом крыши церкви.">
   </head>
   <body>
     <section class="first-screen">
@@ -190,7 +192,7 @@
           <h2 class="finish__title text__main center black">В ролях</h2>
           <p class="finish__subtitle text__small center black">Дизайнер</p>
           <div class="finish__names">
-            <a class="white link__main center black" href="#">
+            <a class="white link__main center black" href="/radomskii">
               Павел Радомский
             </a>
           </div>
@@ -203,7 +205,7 @@
       <div class="container">
         <div class="footer__wrapper">
           <p class="footer__founder center">
-            Основатель – <a href="#">Федянов Степан</a>
+            Основатель – <a href="/stepan">Федянов Степан</a>
           </p>
           <p class="footer__autput text__small center">© Аутпут 2024</p>
           <a
