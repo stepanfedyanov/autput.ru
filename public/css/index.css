@@ -3,6 +3,13 @@
 @import "./common/samplesCard.css";
 @import "./common/main.css";
 
+.error-page__title {
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(-50%);
+    max-width: 450px;
+}
+
 .first-screen {
     background-color: rgb(255, 255, 255);
 }

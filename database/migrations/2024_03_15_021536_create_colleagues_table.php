@@ -17,10 +17,10 @@ return new class extends Migration
             $table->string('firstName');
             $table->string('lastName');
             $table->string('jobTitle');
-            $table->string('socialLinkName');
-            $table->string('socialLink');
-            $table->string('avatar');
-            $table->string('cover');
+            $table->string('socialLinkName')->nullable();;
+            $table->string('socialLink')->nullable();;
+            $table->string('avatar')->nullable();;
+            $table->string('cover')->nullable();;
             $table->timestamps();
         });
     }

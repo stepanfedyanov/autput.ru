@@ -36,6 +36,14 @@ docker compose -f docker-compose-dev.yml exec laravel.test sh
 
 Выйти из этого терминал можно с помощью ```exit```
 
+## Админка
+
+Для входа в систему управления необходимо создать тестового администратора.
+Для этого зайдите в docker container laravel.test и пропишите
+```bash
+php artisan db:seed
+```
+
 ## Git Flow
 
 ### Ветка с новой фичей
