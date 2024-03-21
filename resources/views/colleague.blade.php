@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="{{asset('/css/colleague.css')}}" />
-    <title>Коллега</title>
+    @include('includes.head')
+    <title>Студия Аутпут | {{$colleague->firstName}} {{$colleague->lastName}}</title>
+    <meta name="description" content="Студия Аутпут занимается дизайном и разработкой веб-сайтов. В своей работе студия воплощает уникальный профессиональный опыт специалистов, которые работают в престижных компаниях России.">
   </head>
   <body>
     <header class="header">
@@ -49,7 +51,7 @@
                   />
                 </g>
               </svg></a>
-  
+
               <a class="header__logo_mini" href="/"><svg
                 class="header__logo_mini logo_black"
                 width="30.000000"
@@ -137,6 +139,7 @@
           <a class="card card_{{$work->workSizeType}}" style="background-image: url('{{$work->workThumbnail}}')" href="/work/{{$work->workCompany}}/{{$work->workType}}">
             <span
               class="card__link link__main left black"
+              style="color: {{ $work->workTitleColor }}"
             >
               {{$work->workTitle}}
             </span>
@@ -150,7 +153,7 @@
       <div class="container">
         <div class="footer__wrapper">
           <p class="footer__founder center">
-            Основатель – <a href="#">Федянов Степан</a>
+            Основатель – <a href="/stepan">Федянов Степан</a>
           </p>
           <p class="footer__autput text__small center">© Аутпут 2024</p>
           <a

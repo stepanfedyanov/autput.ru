@@ -18,6 +18,7 @@ return new class extends Migration
             $table->string('workType');
             $table->string('workThumbnail');
             $table->string('workSizeType');
+            $table->string('workTitleColor');
             $table->timestamps();
         });
     }

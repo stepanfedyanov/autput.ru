@@ -3,8 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{asset('/css/index.css')}}" />
-    <title>Главная</title>
+    <link rel="stylesheet" href="{{ asset('/css/index.css') }}" />
+    @include('includes.head')
+    <title>Студия Аутпут | Главная страница</title>
+    <meta name="description" content="Студия Аутпут занимается дизайном и разработкой веб-сайтов. В своей работе студия воплощает уникальный профессиональный опыт специалистов, которые работают в престижных компаниях России.">
   </head>
   <body>
     <section class="first-screen">
@@ -50,7 +52,7 @@
                   />
                 </g>
               </svg></a>
-  
+
               <a class="header__logo_mini" href="/"><svg
                 class="header__logo_mini logo_black"
                 width="30.000000"
@@ -121,6 +123,7 @@
             <a class="card card_{{$work->workSizeType}}" style="background-image: url('{{$work->workThumbnail}}')" href="/work/{{$work->workCompany}}/{{$work->workType}}">
               <span
                 class="card__link link__main left black"
+                style="color: {{ $work->workTitleColor }}"
               >
                 {{$work->workTitle}}
               </span>
@@ -159,20 +162,20 @@
             </h2>
             <div class="specialists__wrapper">
               <div class="specialists__item">
-                <img src="/img/index/stepa.png" alt="фото стёпы" />
-                <a class="link__main black" href="">Степан Федянов</a>
+                <img src="/img/index/stepa.png" alt="Степан Федянов" />
+                <a class="link__main black" href="/stepan">Степан Федянов</a>
                 <p class="text__small gray">Основатель Программист</p>
               </div>
 
               <div class="specialists__item">
-                <img src="/img/index/vadim.png" alt="фото вадима" />
-                <a class="link__main black" href="">Вадим Рассказов</a>
+                <img src="/img/index/vadim.png" alt="Вадим Рассказов" />
+                <a class="link__main black" href="/rasskazow">Вадим Рассказов</a>
                 <p class="text__small gray">Менеджер</p>
               </div>
 
               <div class="specialists__item">
-                <img src="/img/index/pavel.png" alt="фото паши" />
-                <a class="link__main black" href="">Павел Радомский</a>
+                <img src="/img/index/pavel.png" alt="Павел Радомский" />
+                <a class="link__main black" href="/radomskii">Павел Радомский</a>
                 <p class="text__small gray">Дизайнер</p>
               </div>
             </div>
@@ -209,9 +212,9 @@
 
               <div class="data__item">
                 <p class="text__main left black">Социальные сети</p>
-                <a class="link__main left gray" href="">вконтакте</a>
-                <a class="link__main left gray" href="">телеграм</a>
-                <a class="link__main left gray" href="">икс (бывш. твиттер)</a>
+                <a class="link__main left gray" href="https://vk.com/autput">вконтакте</a>
+                <a class="link__main left gray" href="https://t.me/autput_studio">телеграм</a>
+                {{-- <a class="link__main left gray" href="">икс (бывш. твиттер)</a> --}}
               </div>
             </div>
           </div>
@@ -276,7 +279,7 @@
       <div class="container">
         <div class="footer__wrapper">
           <p class="footer__founder center">
-            Основатель – <a href="#">Федянов Степан</a>
+            Основатель – <a href="/stepan">Федянов Степан</a>
           </p>
           <p class="footer__autput text__small center">© Аутпут 2024</p>
           <a
