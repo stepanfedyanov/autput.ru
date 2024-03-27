@@ -232,7 +232,6 @@
         </div>
       </div>
     </footer>
-    <script src="/script/modules/lenis.min.js"></script>
     <script type="module" src="/script/components/videos.js"></script>
     <script type="module" src="/script/work/skyfort/site/skyfort.js"></script>
     
