@@ -9,6 +9,7 @@
     <meta name="description" content="Студия Аутпут занимается дизайном и разработкой веб-сайтов. В своей работе студия воплощает уникальный профессиональный опыт специалистов, которые работают в престижных компаниях России.">
   </head>
   <body>
+    @include('includes.metrica')
     <header class="header">
       <div class="container">
         <div class="header__wrapper">
