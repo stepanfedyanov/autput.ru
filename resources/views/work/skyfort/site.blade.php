@@ -9,6 +9,7 @@
     <meta name="description" content="Skyfort — это маркетплейс инвестиционных продуктов и семейный офис для состоятельных людей. Чтобы подчеркнуть серъезность компании, необходимо сверстать сайт с анимациями, исходя из представленного макета. Студия Аутпут сверстала страницы с анимациями для Skyfort.">
   </head>
   <body>
+    @include('includes.metrica')
     <section class="first-screen">
       <div class="container">
         <header class="header">
@@ -231,8 +232,8 @@
         </div>
       </div>
     </footer>
-
     <script type="module" src="/script/components/videos.js"></script>
     <script type="module" src="/script/work/skyfort/site/skyfort.js"></script>
+    
   </body>
 </html>
