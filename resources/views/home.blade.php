@@ -98,13 +98,23 @@
 
         <div class="first-screen__wrapper">
           <h1 class="first-screen__title title__first left black">
-            Разработка любого сервиса
+            Разработка любого
           </h1>
-          <h1 class="first-screen__title title__first left gray">сайта</h1>
-          <h1 class="first-screen__title title__first left gray">приложения</h1>
-          <h1 class="first-screen__title title__first left gray">
-            информационной системы
-          </h1>
+
+          <div class="parent">
+            <h1 class="first-screen__title title__first left black anim_h1">
+              сервиса
+            </h1>
+            <h1 class="first-screen__title title__first left gray anim_h1">
+              сайта
+            </h1>
+            <h1 class="first-screen__title title__first left gray anim_h1">
+              приложения
+            </h1>
+            <h1 class="first-screen__title title__first left gray anim_h1">
+              бизнес решения
+            </h1>
+          </div>
         </div>
       </div>
     </section>
@@ -115,7 +125,7 @@
           <div class="samples__title">
             <h2 class="title__secondary left black">Работы</h2>
             <h2 class="title__secondary left gray">
-              такими работами невозможно не&nbsp;гордится
+              такими работами невозможно не&nbsp;гордиться
             </h2>
           </div>
 
@@ -262,6 +272,10 @@
                   name="phone"
                   placeholder="+ 7 (999) 99-85-11"
                 />
+
+
+                <p class="approval text__small black">Нажимая кнопку «Отправить заявку», вы соглашаетесь с 
+                  <a class="link_main gray" href="/privacy.pdf" target="_blank">Политикой обработки персональных данных</a></p>
               </div>
               <button type="submit" class="form__submit text__small white">
                 Отправить заявку
@@ -295,9 +309,12 @@
         </div>
       </div>
     </footer>
+    
+    @include('includes.script')
 
     <script src="{{asset('/script/components/form.js')}}"></script>
     <script src="{{asset('/script/components/mask.js')}}"></script>
+    <script src="{{asset('/script/index.js')}}"></script>
 
   </body>
 </html>

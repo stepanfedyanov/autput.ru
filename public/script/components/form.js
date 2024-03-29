@@ -17,9 +17,16 @@ window.addEventListener("DOMContentLoaded", () => {
             label.classList.remove("error_label");
         }
 
+        function validateEmail(email) {
+            let regul =
+                /^([a-z0-9-!#$%&'*+/=?^_`]+\.)*[a-z0-9-!#$%&'*+/=?^_`]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,}$/i;
+            return regul.test(email);
+        }
+
         let res = true;
 
         const parentsInput = form.querySelectorAll(".form__field");
+
         parentsInput.forEach((parent) => {
             const input = parent.querySelector("input");
             const label = parent.querySelector("label");
@@ -29,6 +36,12 @@ window.addEventListener("DOMContentLoaded", () => {
             if (input.value === "") {
                 error(input, label);
                 res = false;
+            }
+            if (input.id === "email") {
+                if (validateEmail(input.value)) {
+                    error(input, label);
+                    res = false;
+                }
             }
         });
 
