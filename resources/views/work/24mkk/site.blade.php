@@ -9,6 +9,7 @@
     <meta name="description" content="Студия Аутпут провела анализ аудитории и конкурентов, составила семантическое ядро, и определила важные запросы для сайта. В среднем позиции сайта выросли на 20% по основным поисковым запросам в Красноярске.">
   </head>
   <body>
+    @include('includes.metrica')
     <section class="first-screen">
       <div class="container">
         <header class="header">

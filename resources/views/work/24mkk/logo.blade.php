@@ -9,6 +9,7 @@
     <meta name="description" content="Логотип мебельной фабрики в Красноярске требовал обновления. Вместе с разработкой сайта, Студия Аутпут обновила логотип фабрики. Мы также разработали дополнительные варианты: черно-белый для печати и вариант с оригинальным цветом крыши церкви.">
   </head>
   <body>
+    @include('includes.metrica')
     <section class="first-screen">
       <div class="container">
         <header class="header">
