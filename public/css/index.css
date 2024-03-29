@@ -1,6 +1,7 @@
 @import "./common/hederFooter.css";
 @import "./components/text.css";
 @import "./common/samplesCard.css";
+@import "./animateTitle.css";
 @import "./common/main.css";
 
 .error-page__title {
@@ -250,6 +251,10 @@
         width: 720px;
     }
 
+    .first-screen__wrapper {
+        gap: 0;
+    }
+
     .first-screen__title {
         font-size: 50px;
         line-height: 58px;
@@ -387,12 +392,16 @@
         line-height: 16px;
     }
 
-    .form__field input {
+    .approval {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .form__input {
         height: 45px;
         box-sizing: border-box;
         padding: 15px;
         border-radius: 8px;
-        border: 1px solid;
         font-size: 14px;
         line-height: 16px;
     }
