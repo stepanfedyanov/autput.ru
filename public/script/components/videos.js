@@ -1,20 +1,16 @@
 "use strict";
 
-function getVideo({ urlSite, nameSite, url, parentSelector }) {
-  // Еще – что-то у тебя со стилями текста в video-decoration__link
-  // в макете он меньше и слегка серого цвета
-  // у тебя сильно больше
+function getVideo({ urlSite, nameSite, url, parentSelector, poster }) {
+    const parent = document.querySelector(parentSelector);
+    const videoSources = [];
 
-  const parent = document.querySelector(parentSelector);
-  const videoSources = [];
+    url.forEach((videoSource) => {
+        videoSources.push(
+            `<source src="${videoSource.src}" type="${videoSource.type}" />`
+        );
+    });
 
-  url.forEach((videoSource) => {
-    videoSources.push(
-      `<source src="${videoSource.src}" type="${videoSource.type}" />`
-    );
-  });
-
-  parent.innerHTML = `
+    parent.innerHTML = `
     <div class="video-decoration">
       <div class="video-decoration__dots">
         <div class="video-decoration__dot"></div>
@@ -28,12 +24,12 @@ function getVideo({ urlSite, nameSite, url, parentSelector }) {
     </div>
 
     
-    <video autoplay loop playsinline muted width="100%">
+    <video autoplay loop playsinline muted poster="${poster}" width="100%">
       ${videoSources.join(" ")}
     </video>
     `;
 
-  /* const parent = document.querySelector(parentSelector);
+    /* const parent = document.querySelector(parentSelector);
   const video = document.createElement("video");
 
   video.setAttribute("autoplay", true);

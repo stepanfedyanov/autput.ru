@@ -2,15 +2,13 @@
 import getVideo from "../../../components/videos.js";
 
 window.addEventListener("DOMContentLoaded", () => {
-    const title = document.querySelector("#sky_title");
-    const bilds = document.querySelector(".first-screen__bilds");
+    //Parallax
 
-    document.addEventListener("scroll", function () {
-        let value = window.scrollY;
-        title.style.marginTop = value * 1.1 + "px";
-        bilds.style.marginTop = value * 0.7 + "px";
-        //title.style.opacity = value;
+    window.addEventListener("scroll", (event) => {
+        document.body.style.cssText = `--scrollTop: ${window.scrollY}px`;
     });
+
+    //Videos
 
     getVideo({
         urlSite: "https://skyfort.capital",
@@ -26,6 +24,7 @@ window.addEventListener("DOMContentLoaded", () => {
             },
         ],
         parentSelector: ".about__video-wrapper",
+        poster: "/img/work/skyfort/site/poster-sky-one.png",
     });
 
     getVideo({
@@ -42,6 +41,7 @@ window.addEventListener("DOMContentLoaded", () => {
             },
         ],
         parentSelector: ".details__video-wrapper_one",
+        poster: "/img/work/skyfort/site/poster-sky-two.png",
     });
 
     getVideo({
@@ -58,6 +58,7 @@ window.addEventListener("DOMContentLoaded", () => {
             },
         ],
         parentSelector: ".details__video-wrapper_two",
+        poster: "/img/work/skyfort/site/poster-sky-three.png",
     });
 
     getVideo({
@@ -74,5 +75,6 @@ window.addEventListener("DOMContentLoaded", () => {
             },
         ],
         parentSelector: ".graphics__video-wrapper",
+        poster: "/img/work/skyfort/site/poster-sky-four.png",
     });
 });

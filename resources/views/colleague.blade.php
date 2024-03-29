@@ -168,5 +168,7 @@
         </div>
       </div>
     </footer>
+
+    @include('includes.script')
   </body>
 </html>

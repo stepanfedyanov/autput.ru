@@ -16,6 +16,7 @@ window.addEventListener("DOMContentLoaded", () => {
             },
         ],
         parentSelector: ".about__video-wrapper",
+        poster: "/img/work/24mkk/site/poster-fur-one.png",
     });
 
     getVideo({
@@ -32,5 +33,6 @@ window.addEventListener("DOMContentLoaded", () => {
             },
         ],
         parentSelector: ".optimization__video-wrapper",
+        poster: "/img/work/24mkk/site/poster-fur-two.png",
     });
 });

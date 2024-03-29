@@ -5,6 +5,10 @@
 @import "../../../components/videoDecor.css";
 @import "../../../common/main.css";
 
+:root {
+    --scrollTop: 0px;
+}
+
 .first-screen {
     background-color: rgb(165, 204, 224);
     height: 982px;
@@ -32,8 +36,16 @@
 .first-screen__bilds {
     position: absolute;
     left: 50%;
-    transform: translateX(-50%);
     top: 40%;
+    transform: translate3D(-50%, calc(var(--scrollTop) / 2), 0);
+    will-change: transform;
+    transition: all 0.1s ease;
+}
+
+#sky_title {
+    transform: translate3D(-50%, calc(var(--scrollTop) / 1.5), 0);
+    will-change: transform;
+    transition: all 0.1s ease;
 }
 
 .first-screen__skys {

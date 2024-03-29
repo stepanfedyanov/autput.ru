@@ -231,8 +231,11 @@
         </div>
       </div>
     </footer>
+    
+    @include('includes.script')
 
     <script type="module" src="/script/components/videos.js"></script>
     <script type="module" src="/script/work/skyfort/site/skyfort.js"></script>
+    
   </body>
 </html>
