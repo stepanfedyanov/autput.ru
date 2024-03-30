@@ -82,6 +82,7 @@ window.addEventListener("DOMContentLoaded", () => {
             }).then((response) => {
                 if (response.ok) {
                     modalOpen("Спасибо. Мы скоро Вам перезвоним");
+                    form.reset();
                 } else {
                     modalOpen("Произошла ошибка, повторите позже", false);
                 }

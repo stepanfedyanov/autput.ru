@@ -18,7 +18,6 @@
 
 .first-screen__wrapper {
     margin-top: 67px;
-    overflow: hidden;
 }
 
 .first-screen__title {
@@ -390,7 +389,7 @@
     }
     .first-screen__bilds {
         width: 65%;
-        top: 38%;
+        top: 42%;
     }
 
     .about__text_add {
