@@ -216,8 +216,8 @@
 
               <div class="data__item">
                 <p class="text__main left black">Номер для связи</p>
-                <a class="link__main left gray" href="tel:+79950822426">
-                  + 7 (995) 082-24-26
+                <a class="link__main left gray" href="tel:+73919891237">
+                  + 7 (391) 989-12-37
                 </a>
               </div>
 
@@ -274,7 +274,7 @@
                 />
 
 
-                <p class="approval text__small black">Нажимая кнопку «Отправить заявку», вы соглашаетесь с 
+                <p class="approval text__small black">Нажимая кнопку «Отправить заявку», вы соглашаетесь с
                   <a class="link_main gray" href="/privacy.pdf" target="_blank">Политикой обработки персональных данных</a></p>
               </div>
               <button type="submit" class="form__submit text__small white">
@@ -303,13 +303,13 @@
           >
             mail@autput.ru
           </a>
-          <a class="footer__tel link__main center" href="tel:+79950822426">
-            + 7 (995) 082-24-26
+          <a class="footer__tel link__main center" href="tel:+73919891237">
+            + 7 (391) 989-12-37
           </a>
         </div>
       </div>
     </footer>
-    
+
     @include('includes.script')
 
     <script src="{{asset('/script/components/form.js')}}"></script>
