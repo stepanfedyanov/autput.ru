@@ -215,8 +215,8 @@
           >
             mail@autput.ru
           </a>
-          <a class="footer__tel link__main center" href="tel:+79950822426">
-            + 7 (995) 082-24-26
+          <a class="footer__tel link__main center" href="tel:+73919891237">
+            + 7 (391) 989-12-37
           </a>
         </div>
       </div>

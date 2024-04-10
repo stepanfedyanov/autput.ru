@@ -226,16 +226,16 @@
           >
             mail@autput.ru
           </a>
-          <a class="footer__tel link__main center" href="tel:+79950822426">
-            + 7 (995) 082-24-26
+          <a class="footer__tel link__main center" href="tel:+73919891237">
+            + 7 (391) 989-12-37
           </a>
         </div>
       </div>
     </footer>
-    
+
     @include('includes.script')
     <script type="module" src="/script/components/videos.js"></script>
     <script type="module" src="/script/work/skyfort/site/skyfort.js"></script>
-    
+
   </body>
 </html>

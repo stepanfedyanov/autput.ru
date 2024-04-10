@@ -19,7 +19,7 @@ window.addEventListener("DOMContentLoaded", () => {
 
         function validateEmail(email) {
             let regul =
-                /^([a-z0-9-!#$%&'*+/=?^_`]+\.)*[a-z0-9-!#$%&'*+/=?^_`]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,}$/i;
+                /^[a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1}([a-zA-Z0-9][\-_\.\+\!\#\$\%\&\'\*\/\=\?\^\`\{\|]{0,1})*[a-zA-Z0-9]@[a-zA-Z0-9][-\.]{0,1}([a-zA-Z][-\.]{0,1})*[a-zA-Z0-9]\.[a-zA-Z0-9]{1,}([\.\-]{0,1}[a-zA-Z]){0,}[a-zA-Z0-9]{0,}$/i;
             return regul.test(email);
         }
 
@@ -38,7 +38,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 res = false;
             }
             if (input.id === "email") {
-                if (validateEmail(input.value)) {
+                if (!validateEmail(input.value)) {
                     error(input, label);
                     res = false;
                 }
