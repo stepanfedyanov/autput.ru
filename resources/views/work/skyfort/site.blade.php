@@ -102,42 +102,42 @@
       </div>
       <img class="first-screen__bilds" src="/img/work/skyfort/site/bilds.png" alt="здания" />
 
-      <img class="first-screen__skys" src="/img/work/skyfort/site/skys.png" alt="облока" />
+      <img class="first-screen__skys" src="/img/work/skyfort/site/skys.png" alt="Облака" />
 
       <img
         class="first-screen__sky_one"
         src="/img/work/skyfort/site/sky_one.png"
-        alt="облоко"
+        alt="Облако"
       />
       <img
         class="first-screen__sky_two"
         src="/img/work/skyfort/site/sky_two.png"
-        alt="облоко"
+        alt="Облако"
       />
       <img
         class="first-screen__sky_three"
         src="/img/work/skyfort/site/sky_three.png"
-        alt="облоко"
+        alt="Облако"
       />
       <img
         class="first-screen__sky_four"
         src="/img/work/skyfort/site/sky_one.png"
-        alt="облоко"
+        alt="Облако"
       />
       <img
         class="first-screen__sky_five"
         src="/img/work/skyfort/site/sky_two.png"
-        alt="облоко"
+        alt="Облако"
       />
       <img
         class="first-screen__sky_six"
         src="/img/work/skyfort/site/sky_three.png"
-        alt="облоко"
+        alt="Облако"
       />
       <img
         class="first-screen__sky_seven"
         src="/img/work/skyfort/site/sky_three.png"
-        alt="облоко"
+        alt="Облако"
       />
 
       <div class="first-screen__filter"></div>
