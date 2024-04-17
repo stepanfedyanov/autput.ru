@@ -114,7 +114,7 @@
           <img
             class="first-screen__divan"
             src="/img/work/24mkk/site/divan.png"
-            alt="divan"
+            alt="Диван"
           />
         </div>
       </div>
